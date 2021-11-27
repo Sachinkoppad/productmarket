@@ -1,0 +1,121 @@
+/* This code is the signup page css code for the cms app */
+
+
+.container {
+    width: 100%;
+  }
+  .heading{
+    width: 100%;
+    float: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    text-align:center;
+    padding-top: 100px;
+    color:black;
+  }
+  
+main {
+    background-image: url("https://ucarecdn.com/14beee94-6fb3-4d19-919c-6446a2a748fa/");
+    background-size: cover;
+    padding:500px 0;
+  }
+  
+  #wrapper {
+    margin: 0 auto;
+    padding: 0px;
+    text-align: top;
+    float: left;
+    width: 50%;
+  }
+  
+  #wrapper div {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  
+  #wrapper #div2 {
+    margin-top: 10px;
+    width: 350px;
+    text-align: top;
+  }
+  
+  #wrapper #div2 h1 {
+    margin: 0px;
+    font-size: 25px;
+    color: #2e2e2e;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  
+  #wrapper #div2 li {
+    list-style-type: none;
+    margin-top: 10px;
+  }
+  
+  #wrapper #div2 li #firstname {
+    width: 80%;
+  }
+  
+  #wrapper #div2 li #surname {
+    width: 80%;
+  }
+  
+  #wrapper #div2 li input[type="text"] {
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 18px;
+    border: 1px solid #bdbdbd;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  #wrapper #div2 li input[type="password"] {
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 18px;
+    border: 1px solid #bdbdbd;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  
+  #wrapper #div2 li input[type="submit"] {
+    width: 205px;
+    height: 25px;
+    border-width: 0px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 19px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold !important;
+    background: linear-gradient(#42b72a, #42b72a);
+    background-color: #42b72a;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #42b72a #42b72a #42b72a;
+    border: 0px solid;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  }
+  
+  
+  .back {
+    background-color: rgb(22, 177, 22);
+    height: 40px;
+    width: 90px;
+    color: rgba(234, 240, 239, 0.911);
+    text-decoration: none;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    border-width: 0px;
+    border-radius: 10px;
+  }
