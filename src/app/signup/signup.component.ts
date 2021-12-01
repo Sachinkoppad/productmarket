@@ -9,7 +9,8 @@ export class SignupComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
+
+
 
 }

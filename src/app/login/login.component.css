@@ -1,20 +1,7 @@
 /* This code is the login page css code for the cms app */
 /* Removing user agent default styles */
-body,
-ul,
-li,
-a,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-  padding: 0;
-  font-family: Helvetica, Arial, sans-serif;
-}
+
+
 
 .main-heading {
   text-align: center;
@@ -35,17 +22,18 @@ ul {
 /* Main Styles */
 
 main {
-  background-image: url("https://ucarecdn.com/14beee94-6fb3-4d19-919c-6446a2a748fa/");
+  background-image: url("https://media.istockphoto.com/photos/online-shopping-ecommerce-and-delivery-service-concept-paper-cartons-picture-id1024926532?k=20&m=1024926532&s=612x612&w=0&h=9_celYiqtFqAnGYcvY0B_Jt5zsmeo_QrwuMs76bv1HY=");
   background-size: cover;
-  padding: 50px 0;
+  padding: 175px 0;
+
 }
 
 .login-form {
-  margin-left: 65%;
+  margin: auto;
   background: #ebede1;
   width: 400px;
   text-align: center;
-  padding: 40px 0;
+  padding: 40px ;
 }
 
 .login-form h1 {
